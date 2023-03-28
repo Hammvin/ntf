@@ -38,7 +38,7 @@ const Home = () => {
                   <div class="card-body">
                     <h5 class="card-title">Leader</h5>
                     <p class="card-text">Some quick example text.</p>
-                    <a class="btn btn-warning">Open</a>
+                    <button class="btn btn-warning">Open</button>
                   </div>
                 </div>
               </div>
@@ -49,7 +49,7 @@ const Home = () => {
                   <div class="card-body">
                     <h5 class="card-title">Leader</h5>
                     <p class="card-text">Some quick example text.</p>
-                    <a class="btn btn-warning">Open</a>
+                    <button class="btn btn-warning">Open</button>
                   </div>
                 </div>
               </div>
@@ -60,7 +60,7 @@ const Home = () => {
                   <div class="card-body">
                     <h5 class="card-title">Leader</h5>
                     <p class="card-text">Some quick example text.</p>
-                    <a class="btn btn-warning">Open</a>
+                    <button class="btn btn-warning">Open</button>
                   </div>
                 </div>
               </div>
