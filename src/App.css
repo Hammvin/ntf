@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+body{
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: large;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+    font-family: 'Alkatra', cursive;
+    font-weight: 600;
+    font-size: 32px;
+    color: #42C840;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Home Page */
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header h1{
+    border-bottom: #F3E50F 3px solid;
 }
 
-.App-link {
-  color: #61dafb;
+.mission{
+   margin-top: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mission-header{
+    font-family: 'Alkatra', cursive;
+    font-size: 26px;
+    color: #42C840 ;
+    display: flex;
+    justify-content: center;
+}
+
+.vision{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.vision-header{
+    font-family: 'Alkatra', cursive;
+    font-size: 26px;
+    color: #42C840 ;
+    display: flex;
+    justify-content: center;
+}
+
+.leaders-header{
+    display: flex;
+   justify-content: center;
+   color: #42C840;
+   font-family: 'Alkatra', cursive;
+   font-size: 26px;
+}
+
+.leader{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+/* ABOUT */
+
+.about-body{
+    margin-bottom: 5rem;
+}
+
+/* Footer */
+
+.footer-heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Alkatra', cursive;
+    font-size: large;
+    margin-top: 2rem;
+    font-size: 24px;
+    border-bottom: 3px dashed #42C840;
+}
+
+.navlinks ul li{
+    list-style:none; 
+    display: flex;
+    justify-content: center;  
+}
+
+.footer-links{
+    color: black;
+    text-decoration: none;
+    font-family: 'Alkatra', cursive;
+}
+
+.social-links ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social{
+    color: black;
+}
+
+.trial{
+  height: 70vh;  
+}
+
+.trial-text{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', serif;
+    margin-top: 5rem;
 }
