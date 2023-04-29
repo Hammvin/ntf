@@ -1,6 +1,4 @@
 import React from 'react';
-import Slider from './Slider';
-import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 
 const Home = () => {
@@ -63,7 +61,7 @@ const Home = () => {
               <p className='leaders-header'>Leaders</p>
             </div>
             <div className="leader">
-              <Slider/> 
+             
               {/* <div className="col-sm-12 col-md-3 col-lg-3">
                 <div class="card" style={{width: "14rem"}}>
                   <img src={avatar} class="card-img-top" alt="..." />
