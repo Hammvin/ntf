@@ -7,15 +7,15 @@ import {AiFillInstagram} from 'react-icons/ai';
 
 const Footer = () => {
   return (
-    <div className='container-fluid bg-warning'>
+    <div className='container-fluid bg-warning footer'>
         <div className="row">
             <div className="col-sm-12 col-md-1 col-lg-1"></div>
-            <div className="col-sm-12 col-md-10 col-lg-10 footer">
+            <div className="col-sm-12 col-md-10 col-lg-10 ">
                 <div className="row">
                     <div className=''>
                         <p className='footer-heading'>Some convenience links</p>
                     </div>
-                    <div className="col-ms-12 col-md-4 col-lg-4 navlinks">
+                    <div className="col-ms-12 col-md-4 col-lg-4 footerlink">
                         <ul>
                             <li>
                                 <Link to='/' className='footer-links' >Home</Link>
@@ -24,7 +24,10 @@ const Footer = () => {
                                 <Link to='/about' className='footer-links'>About Us</Link>
                             </li>
                             <li>
-                                <Link to='/getinvalved' className='footer-links'>Get Invalved</Link>
+                                <Link to='/involve' className='footer-links'>Get Involved</Link>
+                            </li>
+                            <li>
+                                <Link to='/issues' className='footer-links'>Issues</Link>
                             </li>
                             <li>
                                 <Link to='/news' className='footer-links'>News Updates</Link>
