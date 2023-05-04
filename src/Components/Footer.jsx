@@ -21,19 +21,19 @@ const Footer = () => {
                                 <Link to='/' className='footer-links' >Home</Link>
                             </li>
                             <li>
-                                <Link to='/about' className='footer-links'>About Us</Link>
+                                <Link to='/about' className='footer-links'>About NTP</Link>
                             </li>
                             <li>
                                 <Link to='/involve' className='footer-links'>Get Involved</Link>
                             </li>
                             <li>
-                                <Link to='/issues' className='footer-links'>Issues</Link>
+                                <Link to='/issues' className='footer-links'>NTP Road Map</Link>
                             </li>
                             <li>
-                                <Link to='/news' className='footer-links'>News Updates</Link>
+                                <Link to='/news' className='footer-links'>NTP Updates</Link>
                             </li>
                             <li>
-                                <Link to='/contacts' className='footer-links'>Contacts</Link>
+                                <Link to='/contacts' className='footer-links'>Connect to NTP</Link>
                             </li>
                         </ul>
                     </div>

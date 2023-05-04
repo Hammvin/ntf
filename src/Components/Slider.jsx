@@ -1,117 +1,48 @@
 import Carousel from 'react-bootstrap/Carousel';
-import avatar from '../images/avatar.jpg';
+import Townhall from '../images/Townhall.jpeg';
+import Meet from '../images/Meet.jpeg';
+import Rally from '../images/Rally.jpeg';
 
 function Slider() {
   return (
     <Carousel>
       <Carousel.Item>
-        <div className="row">
-            <div className="col-sm-12 col-md-1 col-lg-1"></div>
-            <div className="col-sm-12 col-md-5 col-lg-5">
-                <img
-                    className="d-block w-100"
-                    src={avatar}
-                    alt="First slide"
-                />
-                <div >
-                    <div className='leader-title'>
-                     <p><span className='slider-span'>Name:</span> Brian Ogola </p>
-                    </div>
-                    <div className='leader-title'>
-                     <p><span className='slider-span'>Position:</span> Party Chairman </p>
-                    </div>    
-                </div>
-                
-            </div>
-            <div className="col-sm-12 col-md-5 col-lg-5">
-                <img
-                    className="d-block w-100"
-                    src={avatar}
-                    alt="First slide"
-                />
-                <div >
-                    <div className='leader-title'>
-                     <p><span className='slider-span'>Name:</span> Brian Ogola </p>
-                    </div>
-                    <div className='leader-title'>
-                     <p><span className='slider-span'>Position:</span> Party Chairman </p>
-                    </div>    
-                </div>
-            </div>
-            <div className="col-sm-12 col-md-1 col-lg-1"></div>
-        </div>      
+        <img
+          className="d-block w-100 slide-img"
+          src={Townhall}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>Townhall meeting</h3>
+          <p>A meeting with the youth to get their views.</p>
+        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <div className="row">
-            <div className="col-sm-12 col-md-1 col-lg-1"></div>
-            <div className="col-sm-12 col-md-5 col-lg-5">
-                <img
-                    className="d-block w-100"
-                    src={avatar}
-                    alt="First slide"
-                />
-                <div >
-                    <div className='leader-title'>
-                     <p><span className='slider-span'>Name:</span> Brian Ogola </p>
-                    </div>
-                    <div className='leader-title'>
-                     <p><span className='slider-span'>Position:</span> Party Chairman </p>
-                    </div>    
-                </div>
-            </div>
-            <div className="col-sm-12 col-md-5 col-lg-5">
-                <img
-                    className="d-block w-100"
-                    src={avatar}
-                    alt="First slide"
-                />
-                <div >
-                    <div className='leader-title'>
-                     <p><span className='slider-span'>Name:</span> Brian Ogola </p>
-                    </div>
-                    <div className='leader-title'>
-                     <p><span className='slider-span'>Position:</span> Party Chairman </p>
-                    </div>    
-                </div>
-            </div>
-            <div className="col-sm-12 col-md-1 col-lg-1"></div>
-        </div>  
+        <img
+          className="d-block w-100 slide-img"
+          src={Rally}
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Initial rally</h3>
+          <p>A meeting with the public to share our vision.</p>
+        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <div className="row">
-            <div className="col-sm-12 col-md-1 col-lg-1"></div>
-            <div className="col-sm-12 col-md-5 col-lg-5">
-                <img
-                    className="d-block w-100"
-                    src={avatar}
-                    alt="First slide"
-                />
-                <div >
-                    <div className='leader-title'>
-                     <p><span className='slider-span'>Name:</span> Brian Ogola </p>
-                    </div>
-                    <div className='leader-title'>
-                     <p><span className='slider-span'>Position:</span> Party Chairman </p>
-                    </div>    
-                </div>
-            </div>
-            <div className="col-sm-12 col-md-5 col-lg-5">
-                <img
-                    className="d-block w-100"
-                    src={avatar}
-                    alt="First slide"
-                />
-                <div >
-                    <div className='leader-title'>
-                     <p><span className='slider-span'>Name:</span> Brian Ogola </p>
-                    </div>
-                    <div className='leader-title'>
-                     <p><span className='slider-span'>Position:</span> Party Chairman </p>
-                    </div>    
-                </div>
-            </div>
-            <div className="col-sm-12 col-md-1 col-lg-1"></div>
-        </div>  
+        <img
+          className="d-block w-100 slide-img"
+          src={Meet}
+          alt="Third slide"
+
+        />
+
+        <Carousel.Caption>
+          <h3>Meet and greet</h3>
+          <p>
+            An impromtu meet and greet with the citizens.
+          </p>
+        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );

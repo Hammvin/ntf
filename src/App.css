@@ -13,6 +13,12 @@ body{
     color: #42C840;
 }
 
+/*Navbar*/
+.logo{
+    border: 3px solid #F3E50F;
+    border-radius: 50%;
+}
+
 
 
 /* Home Page */
@@ -58,27 +64,7 @@ body{
     font-size: 30px;
     color: #42C840;
     overflow: hidden;
-    position: relative;
 }
-
-.mission-header::after{
-    content: "";
-    position: absolute;
-    background: #fff;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    border-left: 2px solid #42C840;
-    animation: typing 1.5s steps(9) infinite;
-}
-
-@keyframes typing {
-    100%{
-        left: 100%;
-        margin: 0 -35px 0 35px;
-    }
-}
-
 
 .mission-text{
     text-align: center;
@@ -108,18 +94,6 @@ body{
     font-family: 'Alkatra', cursive;
     font-size: 30px;
     color: #42C840 ;
-    position: relative;
-}
-
-.vision-header::after{
-    content: "";
-    position: absolute;
-    background: #fff;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    border-left: 2px solid #42C840;
-    animation: typing 1.5s steps(8) infinite;
 }
 
 .vision-text{
@@ -136,9 +110,7 @@ body{
 }
 
 .leader{
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
+    height: 22rem;
     margin-bottom: 3rem;
 }
 
@@ -146,15 +118,35 @@ body{
     border-bottom: 2px solid #F3E50F;
 }
 
-.leader-title{
+.salutation{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+.leaderlbl{
+    font-family: 'Alkatra', cursive;
+    font-size: 20px;
+    color: #42C840;
+}
+
+.leader-txt{
+    font-family: 'Roboto', serif;
+    font-weight: 400;
 }
 
 .slider-span{
     color: #42C840;
     font-family: 'Alkatra', cursive;
     font-size: 20px;
+}
+
+.slider-div{
+    gap: 2rem
+}
+
+.slide-img{
+   height: 400px;
 }
 
 /* ABOUT */
