@@ -18,7 +18,7 @@ const Footer = () => {
                     <div className="col-ms-12 col-md-4 col-lg-4 footerlink">
                         <ul>
                             <li>
-                                <Link to='/' className='footer-links' >Home</Link>
+                                <Link to='/home' className='footer-links' >Home</Link>
                             </li>
                             <li>
                                 <Link to='/about' className='footer-links'>About NTP</Link>
