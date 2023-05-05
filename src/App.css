@@ -28,6 +28,9 @@ body{
     background-size: cover;
     opacity: 0.9;
 }
+.landing-inner{
+    padding-top: 5rem;
+}
 
 .landing-text{
     background: #fff;

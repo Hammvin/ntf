@@ -7,9 +7,9 @@ const Landing = () => {
   return (
     <div className="row landing-outer"> 
         <div className="col-sm-12 col-md-2 col-lg-2 space"></div>
-        <div className="col-sm-12 col-md-5 col-lg-5 ">
+        <div className="col-sm-12 col-md-6 col-lg-5 ">
+            <div style={{padding: '5rem'}}></div>
             <div className="landing-inner">
-            <div style={{padding: '2rem'}}></div>
                 <div className='landing-text'>
                     <p className='emblem'>NATIONAL TRANSFORMATION PARTY</p>
                 </div>
@@ -24,7 +24,7 @@ const Landing = () => {
                 </div>
             </div>
         </div>
-        <div className="col-sm-12 col-md-5 col-lg-5 space"></div>
+        <div className="col-sm-12 col-md-4 col-lg-5 space"></div>
     </div>
   )
 }
