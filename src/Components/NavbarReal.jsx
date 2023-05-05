@@ -12,7 +12,7 @@ function NavbarReal() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link as={Link} to={'/'} className='navlink'>Home</Nav.Link>
+            <Nav.Link as={Link} to={'/home'} className='navlink'>Home</Nav.Link>
             <Nav.Link as={Link} to={'about'} className='navlink'>About NTP</Nav.Link>
             <Nav.Link as={Link} to={'involve'} className='navlink'>Get Involved</Nav.Link>
             <Nav.Link as={Link} to={'issues'} className='navlink'>NTP Road Map</Nav.Link>

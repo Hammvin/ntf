@@ -33,7 +33,7 @@ const Footer = () => {
                                 <Link to='/news' className='footer-links'>NTP Updates</Link>
                             </li>
                             <li>
-                                <Link to='/contacts' className='footer-links'>Connect to NTP</Link>
+                                <Link to='/contacts' className='footer-links'>Connect with NTP</Link>
                             </li>
                         </ul>
                     </div>

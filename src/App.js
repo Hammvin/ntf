@@ -9,6 +9,7 @@ import News from './Components/News';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import NavbarReal from './Components/NavbarReal';
+import Landing from './Components/Landing';
 import {Routes, Route} from 'react-router-dom';
 
 
@@ -18,7 +19,8 @@ function App() {
       <div>
       <NavbarReal />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<Landing />} />
+          <Route path='/Home' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/involve' element={<Involve />} />
           <Route path='/issues' element={<Issues />} />

@@ -19,13 +19,13 @@ const Contact = () => {
           <div className='contact'>
             <ul>
               <li>
-                <span className='contact-items'>Address:</span> Nairobi CBD
+                <p><span className='contact-items'>Address: <br /></span> Runda Meadows 486, <br />P.O BOX 4101 - 00100, <br /> Nairobi.</p> 
               </li>
               <li>
-                <span className='contact-items'>Phone:</span> (+254) 700 000 000
+                <span className='contact-items'>Phone: </span> (+254) 790 987 149 | (+254) 756 712 200
               </li>
               <li>
-                <span className='contact-items'>Email:</span> Example@test.ke
+                <span className='contact-items'>Email: </span> info@ntpkenya.com
               </li>
             </ul>
           </div>

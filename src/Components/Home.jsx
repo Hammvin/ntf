@@ -5,6 +5,7 @@ import Agness from '../images/Agness.jpeg';
 import Brian from '../images/Brian.jpeg';
 import Maurice from '../images/Maurice.jpeg';
 import Paul from '../images/Paul.jpeg';
+import Nikki from '../images/Nikki.jpeg';
 
 const Home = () => {
   return (
@@ -16,9 +17,6 @@ const Home = () => {
           <div className="header">
             <p className='header-text'>Home</p>
           </div>
-          {/* <div className="slider">
-            <Slider />
-          </div> */}
           <div className="intro">
             <p>
             Welcome to the National Transformation Party (NTP), a political party dedicated to transforming our country to a just, equal and prosperous society. 
@@ -134,14 +132,14 @@ const Home = () => {
              </div>
              <div className="col-sm-12 col-md-4 col-lg-4">
                 <Card style={{ width: '18rem' }}>
-                  <Card.Img variant="top" className='leader' src={avatar} />
+                  <Card.Img variant="top" className='leader' src={Nikki} />
                   <Card.Body>
                     <div  className='salutation'>
                       <div>
-                        <p className='leader-txt'><span className='leaderlbl'>Name: </span></p>
+                        <p className='leader-txt'><span className='leaderlbl'>Name: </span>Nikki Tolo</p>
                       </div>
                       <div>
-                        <p className='leader-txt'><span className='leaderlbl'>Title: </span></p>
+                        <p className='leader-txt'><span className='leaderlbl'>Title: </span>NEC Member</p>
                       </div>
                     </div>
                   </Card.Body>
