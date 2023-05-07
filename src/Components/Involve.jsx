@@ -11,14 +11,14 @@ const Involve = () => {
         <div className="col-sm-12 col-md-1 col-lg-1"></div>
         <div className="col-sm-12 col-md-10 col-lg-10">
           <p className='involve-txt'>
-            We arecommited to promoting democracy and good governance in Kenya. 
+            We are commited to promoting democracy and good governance in Kenya. 
             We believe that every Kenyan has a constitutional duty and responsibility to actively participate in the pilitical processes
             of the country.
           </p> <br />
           <hr />
           <br />
           <p className='involve-txt'>
-            There are many ways to get involvedand we encourage you to consider the following options:
+            There are many ways to get involved and we encourage you to consider the following options:
           </p>
         </div>
         <div className="col-sm-12 col-md-1 col-lg-1"></div>
