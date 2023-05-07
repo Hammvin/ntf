@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="row">
         <div className="col-sm-12 col-md-2 col-lg-2"></div>
         <div className="col-sm-12 col-md-8 col-lg-8">
-          <p>
+          <p className='contact-txt'>
            We welcome your feedback and inquiries. If you have any questions or concerns, please feel free to contact us using the 
            information provided below:
           </p>
@@ -29,12 +29,14 @@ const Contact = () => {
               </li>
             </ul>
           </div>
-          <p>
+          <p className='contact-txt'>
             You can also reach follow us on social media for updates and news on our handles below the page.
           </p>
-          <p>
-            If you are interested in volunteering or becoming a member of the party, please fill out our volunteer form or 
-            membership form. We'll get back to you as soon as possible.
+          <p className='contact-txt'>
+            Join the National Transformation Party (NTP) and be part of a movement committed to creating a better future. 
+            Dial *509# and select NTP to register. Before joining, use *509# to resign from your current political party. 
+            As a member, you can participate in party activities and contribute your ideas to our policy platform. 
+            Join us today and help build a brighter future for ourselves and future generations.
           </p>
           <br />
           <hr />
@@ -46,7 +48,7 @@ const Contact = () => {
       <div className="row">
         <div className="col-sm-12 col-md-2 col-lg-2"></div>
         <div className="col-sm-12 col-md-8 col-lg-8">
-        <p>
+        <p className='contact-txt'>
             Thank you for your interest in our party. We look forward to hearing from you.
           </p>
           <br /><br />

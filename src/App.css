@@ -1,7 +1,5 @@
 body{
     font-family: 'Roboto', serif;
-    font-weight: 400;
-    font-size: large;
     background-color:#999999;
     box-sizing: border-box;
 }
@@ -53,6 +51,10 @@ body{
     font-family: 'Alkatra', cursive;
     padding-left: 5px;
 }
+.landing-btn{
+    margin-top: 7px;
+    margin-left: 5px;
+}
 
 
 /*Media Queries*/
@@ -84,6 +86,8 @@ body{
 }
 
 .intro p{
+    font-family: 'Roboto', serif;
+    font-weight: 400;
     font-size: 20px;
     text-align: center;
 }
@@ -116,6 +120,8 @@ body{
 }
 
 .mission-text{
+    font-family: 'Roboto', serif;
+    font-weight: 400;
     text-align: center;
     font-size: 20px;
 }
@@ -146,6 +152,8 @@ body{
 }
 
 .vision-text{
+    font-family: 'Roboto', serif;
+    font-weight: 400;
     text-align: center;
     font-size: 20px;
 }
@@ -209,7 +217,9 @@ body{
 
 .about-text{
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
 }
 
 .aboutIssues{
@@ -232,6 +242,9 @@ body{
 .Issue-group li{
 list-style:lower-alpha;
 text-align: left;
+font-family: 'Roboto', serif;
+font-size: 20px;
+font-weight: 400;
 
 }
 
@@ -245,6 +258,12 @@ text-align: left;
 }
 
 /*INVOLVE*/
+
+.involve-txt,.issue-txt{
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    font-weight: 400;
+}
 
 .involve-list{
     border: 4px solid #42C840;
@@ -262,6 +281,9 @@ text-align: left;
 }
 
 .involve-list ul li{
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    font-weight: 400;
     list-style-type: decimal;
     padding-bottom: 3px;
 }
@@ -277,6 +299,11 @@ text-align: left;
 }
 
 /*Issues*/
+
+.issue-txt{
+
+}
+
 .Issue-list{
     border: 4px solid #42C840;
     border-radius: 3rem;
@@ -293,6 +320,9 @@ text-align: left;
 }
 
 .Issue-list ul li{
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 20px;
     list-style: decimal;
 }
 
@@ -325,12 +355,21 @@ text-align: left;
     
 }
 
+.contact-txt{
+    font-family: 'Roboto',serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
 .contact:hover{
     transform: scale(1.1);
 }
 
 .contact li{
     list-style: none;
+    font-family: 'Roboto',serif;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .contact-items{

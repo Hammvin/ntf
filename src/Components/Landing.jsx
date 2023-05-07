@@ -20,7 +20,7 @@ const Landing = () => {
                     <p className='landing-txt'>Join the National Transformation Party Today !</p>
                 </div>
                 <div>
-                    <Link to={'involve'}><button className='btn btn-md btn-warning'>Get Involved <HiOutlineArrowCircleRight /></button></Link>
+                    <Link to={'involve'}><button className='btn btn-md btn-warning landing-btn'>Get Involved <HiOutlineArrowCircleRight /></button></Link>
                 </div>
             </div>
         </div>

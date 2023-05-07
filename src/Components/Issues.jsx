@@ -11,7 +11,7 @@ const Issues = () => {
         <div className="col-sm-12 col-md-1 col-lg-1"></div>
         <div className="col-sm-12 col-md-10 col-lg-10">
           <div>
-            <p>
+            <p className='issue-txt'>
             We are commited to promoting and defending the constitutional rights of all Kenyans. We are actively engaged in promoting
             democracy and good governance in the country and we believe that addressing the following is critical to achieving these 
             objectives:
@@ -51,7 +51,7 @@ const Issues = () => {
       <div className="row">
         <div className="col-sm-12 col-md-1 col-lg-1"></div>
         <div className="col-sm-12 col-md-10 col-lg-10">
-          <p>
+          <p className='issue-txt'>
             At the National Transformation Party, we are committed to tackling these and other pressing issues facing Kenya. 
             We believe that by working together, we can create a society that is prosperous, just, and equitable, and that 
             provides opportunities for all Kenyans to reach their full potential. Join us today and be part of the transformation!

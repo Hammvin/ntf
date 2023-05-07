@@ -1,11 +1,11 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import avatar from '../images/avatar.jpg';
 import Agness from '../images/Agness.jpeg';
 import Brian from '../images/Brian.jpeg';
 import Maurice from '../images/Maurice.jpeg';
 import Paul from '../images/Paul.jpeg';
 import Nikki from '../images/Nikki.jpeg';
+import Pauline from '../images/Pauline.jpeg';
 
 const Home = () => {
   return (
@@ -147,14 +147,14 @@ const Home = () => {
              </div>
              <div className="col-sm-12 col-md-4 col-lg-4">
                 <Card style={{ width: '18rem' }}>
-                  <Card.Img variant="top"  className='leader' src={avatar} />
+                  <Card.Img variant="top"  className='leader' src={Pauline} />
                   <Card.Body>
                     <div  className='salutation'>
                         <div>
-                          <p className='leader-txt'><span className='leaderlbl'>Name: </span></p>
+                          <p className='leader-txt'><span className='leaderlbl'>Name: </span>Pauline Kariuki</p>
                         </div>
                         <div>
-                          <p className='leader-txt'><span className='leaderlbl'>Title: </span></p>
+                          <p className='leader-txt'><span className='leaderlbl'>Title: </span>NEC Women Affairs</p>
                         </div>
                       </div>
                   </Card.Body>

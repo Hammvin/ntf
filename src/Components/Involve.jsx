@@ -10,14 +10,14 @@ const Involve = () => {
       <div className="row">
         <div className="col-sm-12 col-md-1 col-lg-1"></div>
         <div className="col-sm-12 col-md-10 col-lg-10">
-          <p>
+          <p className='involve-txt'>
             We arecommited to promoting democracy and good governance in Kenya. 
             We believe that every Kenyan has a constitutional duty and responsibility to actively participate in the pilitical processes
             of the country.
           </p> <br />
           <hr />
           <br />
-          <p>
+          <p className='involve-txt'>
             There are many ways to get involvedand we encourage you to consider the following options:
           </p>
         </div>
@@ -55,7 +55,7 @@ const Involve = () => {
         <div className="row">
           <div className="col-sm-12 col-md-1 col-lg-1"></div>
           <div className="col-sm-12 col-md-10 col-lg-10 involve-bottom">
-            <p>
+            <p className='involve-txt'>
               By getting involved with the National Transformation Party, you can make a difference in your community and contribute to building a better Kenya. 
               We welcome your ideas, your energy, and your commitment to the cause of transformation. Join us today and be part of the change you want to see!
             </p>
