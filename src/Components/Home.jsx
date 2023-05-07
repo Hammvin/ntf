@@ -103,7 +103,7 @@ const Home = () => {
                   <Card.Body>
                   <div  className='salutation'>
                     <div>
-                      <p className='leader-txt'><span className='leaderlbl'>Name: </span>Brian Ogola</p>
+                      <p className='leader-txt'><span className='leaderlbl'>Name: </span>Brian Ogolla</p>
                     </div>
                     <div>
                       <p className='leader-txt'><span className='leaderlbl'>Title: </span>NEC Chairman</p>
