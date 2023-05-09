@@ -277,7 +277,7 @@ font-weight: 400;
 }
 
 .involve-list:hover{
-    transform: scale(1.1);
+    transform: scale(1.07);
 }
 
 .involve-list ul li{
@@ -299,10 +299,6 @@ font-weight: 400;
 }
 
 /*Issues*/
-
-.issue-txt{
-
-}
 
 .Issue-list{
     border: 4px solid #42C840;

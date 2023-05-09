@@ -43,13 +43,13 @@ const Footer = () => {
                                 <Link to='' className='footer-social'><BsLinkedin size="1.5rem"/></Link>
                             </li>
                             <li>
-                                <Link to='' className='footer-social'><BsFacebook size="1.5rem"/></Link>
+                                <Link to='https://www.facebook.com/profile.php?id=100092120365809&mibextid=ZbWKwL' target='_blank' className='footer-social'><BsFacebook size="1.5rem"/></Link>
                             </li>
                             <li>
-                                <Link to='' className='footer-social'><AiFillTwitterCircle size="1.5rem"/></Link>
+                                <Link to='https://twitter.com/NTP_Kenya?t=AMm6xvjM5uefLVS8i9bTcQ&s=08' target='_blank' className='footer-social'><AiFillTwitterCircle size="1.5rem"/></Link>
                             </li>
                             <li>
-                                <Link to='' className='footer-social'><AiFillInstagram size="1.5rem"/></Link>
+                                <Link to='https://instagram.com/ntp_kenya?igshid=ZGUzMzM3NWJiOQ==' target='_blank' className='footer-social'><AiFillInstagram size="1.5rem"/></Link>
                             </li>
                         </ul>
                     </div>
