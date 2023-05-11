@@ -16,6 +16,7 @@ const Contact = () => {
            We welcome your feedback and inquiries. If you have any questions or concerns, please feel free to contact us using the 
            information provided below:
           </p>
+          <br />
           <div className='contact'>
             <ul>
               <li>
@@ -29,6 +30,8 @@ const Contact = () => {
               </li>
             </ul>
           </div>
+          <br />
+          <br />
           <p className='contact-txt'>
             You can also reach follow us on social media for updates and news on our handles below the page.
           </p>
@@ -55,6 +58,7 @@ const Contact = () => {
         </div>
         <div className="col-sm-12 col-md-2 col-lg-2"></div>
       </div>
+      <div className="close"></div>
     </div>
   )
 }

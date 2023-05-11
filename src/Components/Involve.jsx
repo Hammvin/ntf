@@ -20,6 +20,7 @@ const Involve = () => {
           <p className='involve-txt'>
             There are many ways to get involved and we encourage you to consider the following options:
           </p>
+          <br />
         </div>
         <div className="col-sm-12 col-md-1 col-lg-1"></div>
       </div>
@@ -63,6 +64,7 @@ const Involve = () => {
           <div className="col-sm-12 col-md-1 col-lg-1"></div>
         </div>
       </div>
+      <div className="close"></div>
     </div>
   )
 }

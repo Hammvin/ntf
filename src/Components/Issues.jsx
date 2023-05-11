@@ -48,6 +48,8 @@ const Issues = () => {
         </div>
         <div className="col-sm-12 col-md-2 col-lg-2"></div>
       </div>
+      <br />
+      <br />
       <div className="row">
         <div className="col-sm-12 col-md-1 col-lg-1"></div>
         <div className="col-sm-12 col-md-10 col-lg-10">
@@ -59,6 +61,7 @@ const Issues = () => {
         </div>
         <div className="col-sm-12 col-md-1 col-lg-1"></div>
       </div>
+      <div className="close"></div>
     </div>
   )
 }
